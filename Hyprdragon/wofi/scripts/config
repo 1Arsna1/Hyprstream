@@ -1,0 +1,10 @@
+allow_images=true
+allow_markup=true
+term=alacritty
+hide_scroll=true
+matching=fuzzy
+insensitive=true
+columns=1
+sort_order=alphabetical
+gtk_dark=true
+image_size=30

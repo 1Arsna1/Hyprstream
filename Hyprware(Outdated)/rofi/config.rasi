@@ -1,0 +1,124 @@
+configuration {
+	modes: "window,drun,run,filebrowser";
+	font: "Hack Nerd Font Mono 12";
+	location: 6;
+	show-icons: true;
+	terminal: "kitty";
+	sort: true;
+  	cycle: false;
+	matching: "fuzzy";
+  	threads: 1;
+	window-thumbnail: true;
+	normalize-match: true;
+  	sidebar-mode: true;
+  	drun-display-format: "{icon} {name}";
+	display-drun: " Apps";
+  	display-run: " Run";
+  	display-window: "﩯 Window";
+  	display-filebrowser: " Files";
+}
+
+
+@theme "/dev/null"
+
+*{
+	red:      #D91B4F;
+	black:    #1A1C2099;
+	blue:   #0AB8FF;
+  	white:    #FFFFFF;
+ 	width: 	1000;
+	font: "Hack Nerd Font Mono 12";
+}
+
+element-text, element-icon , mode-switcher {
+background-color: inherit;
+text-color:       inherit;
+}
+window {
+	height:	280px;
+	border:	5px;
+	border-color: @red;
+	background-color: @black;
+}
+mainbox {
+	background-color: transparent;
+}
+
+inputbar {
+	children: [prompt,entry];
+	background-color: transparent;
+	border-radius: 0px;
+	padding: 0px;
+}
+prompt {
+	background-color: @red;
+	text-color: @white;
+	margin: 10px;
+	padding: 5px 10px 5px 10px;
+	border-radius: 2px;
+}
+
+textbox-prompt-colon {
+	expand: false;
+	str: ":";
+}
+
+entry {
+	background-color: transparent;
+	text-color: @white;
+	margin: 10px;
+	padding: 5px 5px 5px 10px;
+}
+listview {
+	border: 0px 0px 0px;
+	background-color: transparent;
+	columns: 4;
+	line: 5;
+	margin: 0px 0px 0px 20px;
+	padding: 10px 0px 10px 0px;
+}
+
+element {
+	background-color: transparent;
+	text-color: @white;
+}
+
+element-icon {
+	size: 25px;
+}
+
+element selected {
+	text-color: @blue;
+}
+mode-switcher {
+	spacing: 0;
+	background-color: transparent;
+}
+
+button {
+	background-color: transparent;
+	border: 2px;
+	border-color: @red;
+	border-radius: 2px;
+	text-color:  @white;
+	margin: 0px 10px 5px 10px;
+	padding: 5px 2px 5px 2px;
+	vertical-align: 0.5;
+	horizontal-align: 0.5;
+}
+
+button selected {
+	text-color: @white;
+	background-color: @red;
+}
+
+message {
+	background-color: transparent;
+	margin: 5px 20px 5px 20px;
+	text-color: @white;
+}
+
+textbox {
+	background-color: transparent;
+	text-color: @white;
+}

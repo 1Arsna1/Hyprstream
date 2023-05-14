@@ -1,0 +1,29 @@
+#window {
+  background-color: rgba(16, 14, 31, 1);
+  border-radius: 16px;
+  font-family: "Tinos Nerd Font", monospace;
+  font-size: 14px;
+  border: 5px solid #75c9e9;
+}
+
+#outer-box {
+  margin: 15px;
+  padding: 10px;
+  background-color: rgba(16, 14, 31, 1);
+}
+
+#input {
+  margin-bottom: 20px;
+  background: linear-gradient(45deg, #2346bc, #fff5ca);
+  color: #100e1f;
+  border-radius: 10px;
+}
+
+#entry:selected {
+  background: linear-gradient(45deg, #2346bc, #fff5ca);
+  color: #100e1f;
+  border: 2px solid transparent;
+  border-radius: 25px;
+}
+
+

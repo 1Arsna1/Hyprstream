@@ -1,0 +1,316 @@
+* {
+  border: 						none;
+  border-radius: 				0px;
+  font-family: 					Hack Nerd Font Mono;
+  font-size: 					12px;
+  min-height: 					0;
+}
+window#waybar {
+    background:					transparent;
+    color: 						#ffffff;
+}
+
+/*Left Modules*/
+	/*Workspaces*/
+#workspaces *{
+	font-size: 					20px;
+	font-weight:				bold;
+}
+#workspaces {
+	padding-left:				25px;
+	background-color: 			#1A1C20;
+	margin-left:				10px;
+	margin-top:					10px;
+	margin-bottom:				10px;
+	border-top:					2px solid #D91B4F;
+	border-bottom:				2px solid #D91B4F;
+	border-left:				2px solid #D91B4F;
+	border-top-left-radius:		0px;
+	border-bottom-left-radius:	30px;
+	}
+#workspaces button {
+	border-radius:				30px;
+	color:					  #EED2F3;
+}
+#workspaces button:hover {
+	margin:						5px;
+	border-radius:				100%;
+	background-color:		  #1A1C20;
+}
+#workspaces button.active {
+    color:					  #FD3EFC;
+}
+	/*updates*/
+#custom-updates {
+	font-weight:				bold;
+	padding-left:				20px;
+	padding-right:				20px;
+	background-color:		  #1A1C20;
+	color:				 	  #EED2F3;
+	margin-top:					10px;
+	margin-bottom:				10px;
+	border-top:					2px solid #D91B4F;
+	border-bottom:				2px solid #D91B4F;
+	}
+/*memory*/
+#memory {
+	font-weight:				bold;
+	font-style:					italic;
+	padding-left:				0px;
+	padding-right:				20px;
+	background-color:			#1A1C20;
+	color:						#EED2F3;
+	margin-top:					10px;
+	margin-bottom:				10px;
+	border-top:					2px solid #D91B4F;
+	border-bottom:				2px solid #D91B4F;
+}
+/*cpu*/
+#cpu {
+	font-weight:				bold;
+	font-style:					italic;
+	padding-left:				0px;
+	padding-right:				20px;
+	background-color:			#1A1C20;
+	color:						#EED2F3;
+	margin-top:					10px;
+	margin-bottom:				10px;
+	border-top:					2px solid #D91B4F;
+	border-bottom:				2px solid #D91B4F;
+}
+/*disk*/
+#disk {	
+	font-weight:				bold;
+	font-style:					italic;
+	padding-left:				0px;
+	padding-right:				20px;
+	background-color:			#1A1C20;
+	color:						#EED2F3;
+	margin-top:					10px;
+	margin-bottom:				10px;
+	border-top:					2px solid #D91B4F;
+	border-bottom:				2px solid #D91B4F;
+	border-right:				2px solid #D91B4F;
+	border-top-right-radius:		30px;
+	}
+	/*Temperature*/
+	#temperature {
+		font-weight:				bold;
+		font-style:					italic;
+		padding-left:				0px;
+		padding-right:				20px;
+		background-color:			#1A1C20;
+		color:						#EED2F3;
+		margin-left:				0px;
+		margin-top:					10px;
+		margin-bottom:				10px;
+		border-top:					2px solid #D91B4F;
+		border-bottom:				2px solid #D91B4F;
+		border-top-left-radius:		0px;
+		border-bottom-left-radius:	0px;
+		border-bottom-right-radius:	0px;
+		border-top-right-radius:	0px;
+	}
+		/*Backlight*/
+	#backlight {
+			font-weight:				bold;
+			font-style:					italic;
+			padding-left:				0px;
+			padding-right:				30px;
+			background-color:			#1A1C20;
+			color:						#EED2F3;
+			margin-left:				0px;
+			margin-top:					10px;
+			margin-bottom:				10px;
+			border-top:					2px solid #D91B4F;
+			border-bottom:				2px solid #D91B4F;
+			border-right:				2px solid #D91B4F;
+			border-top-left-radius:		0px;
+			border-bottom-left-radius:	0px;
+			border-bottom-right-radius:	0px;
+			border-top-right-radius:	0px;
+	}
+
+	
+/*Center Modules*/
+#window {
+	font-weight:				bold;
+	font-style:					italic;
+	padding-left:				30px;
+	padding-right:				0px;
+	background-color:			#1A1C20;
+	color:						#EED2F3;
+	margin-left:				0px;
+	margin-top:					10px;
+	margin-bottom:				10px;
+	border-top:					2px solid #D91B4F;
+	border-bottom:				2px solid #D91B4F;
+	border-left:				2px solid #D91B4F;
+	border-top-left-radius:		30px;
+	border-bottom-left-radius:	0px;
+	border-bottom-right-radius:	0px;
+	border-top-right-radius:	0px;
+}
+
+	/*music*/
+#custom-music {
+	font-weight:				bold;
+	font-style:					italic;
+	padding-left:				30px;
+	padding-right:				50px;
+	background-color:			#1A1C20;
+	color:						#EED2F3;	
+	margin-left:				0px;
+	margin-top:					10px;
+	margin-bottom:				10px;
+	border-top:					2px solid #D91B4F;
+	border-bottom:				2px solid #D91B4F;
+	border-right:				2px solid #D91B4F;
+	border-top-left-radius:		0px;
+	border-bottom-left-radius:	0px;
+	border-bottom-right-radius:	0px;
+	border-top-right-radius:	30px;
+}
+
+/*Left Modules*/
+
+	/*Clock*/
+#clock {
+	font-weight:				bold;
+	padding-left:				20px;
+	padding-right:				20px;
+	background-color:			#1A1C20;
+	color:						#EED2F3;
+	margin-top:					10px;
+	margin-bottom:				10px;
+	border-top:					2px solid #D91B4F;
+	border-bottom:				2px solid #D91B4F;
+	border-left:				2px solid #D91B4F;
+	border-top-left-radius:		30px;
+	border-bottom-left-radius:	0px;
+	border-bottom-right-radius:	0px;
+	border-top-right-radius:	0px;
+}
+	/*Pulseaudio*/
+	#pulseaudio {
+		font-weight:				bold;
+		padding-left:				0px;
+		padding-right:				0px;
+		background-color:			#1A1C20;
+		color:						#EED2F3;
+		margin-top:					10px;
+		margin-bottom:				10px;
+		border-top:					2px solid #D91B4F;
+		border-bottom:				2px solid #D91B4F;
+		border-top-left-radius:		0px;
+		border-bottom-left-radius:	0px;
+		border-bottom-right-radius:	0px;
+		border-top-right-radius:	0px;
+	}
+	/*Microphone*/
+	#pulseaudio.microphone {
+		font-weight:				bold;
+		padding-left:				0px;
+		padding-right:				20px;
+		background-color:			#1A1C20;
+		color:						#EED2F3;
+		margin-top:					10px;
+		margin-bottom:				10px;
+		border-top:					2px solid #D91B4F;
+		border-bottom:				2px solid #D91B4F;
+		border-top-left-radius:		0px;
+		border-bottom-left-radius:	0px;
+		border-bottom-right-radius:	0px;
+		border-top-right-radius:	0px;
+	}
+	/*Tray*/
+#tray {
+	font-weight:				bold;
+	padding-left:				0px;
+	padding-right:				20px;
+	background-color:			#1A1C20;
+	color:						#C089A3;
+	margin-top:					10px;
+	margin-bottom:				10px;
+	border-top:					2px solid #D91B4F;
+	border-bottom:				2px solid #D91B4F;
+	border-radius:				0px;
+}
+	/*Battery*/
+#battery {
+	font-weight:				bold;
+	font-style:					italic;
+	padding-left:				0px;
+	padding-right:				20px;
+	background-color:			#1A1C20;
+	color:						#EED2F3;
+	margin-left:				0px;
+	margin-top:					10px;
+	margin-bottom:				10px;
+	border-top:					2px solid #D91B4F;
+	border-bottom:				2px solid #D91B4F;
+	border-top-left-radius:		0px;
+	border-bottom-left-radius:	0px;
+	border-bottom-right-radius:	0px;
+	border-top-right-radius:	0px;
+}
+	/*gamemode*/
+#gamemode {
+	font-weight:				bold;
+	padding-left:				0px;
+	padding-right:				20px;
+	background-color:			#1A1C20;
+	color:						#EED2F3;
+	margin-top:					10px;
+	margin-bottom:				10px;
+	border-top:					2px solid #D91B4F;
+	border-bottom:				2px solid #D91B4F;
+	border-top-left-radius:		0px;
+	border-bottom-left-radius:	0px;
+	border-bottom-right-radius:	0px;
+	border-top-right-radius:	0px;
+}
+	/*Hyprland-language*/
+#language {
+		font-weight:				bold;
+		font-style:					italic;
+		padding-left:				0px;
+		padding-right:				20px;
+		background-color:			#1A1C20;
+		color:						#EED2F3;
+		margin-left:				0px;
+		margin-top:					10px;
+		margin-bottom:				10px;
+		border-top:					2px solid #D91B4F;
+		border-bottom:				2px solid #D91B4F;
+		border-top-left-radius:		0px;
+		border-bottom-left-radius:	0px;
+		border-bottom-right-radius:	0px;
+		border-top-right-radius:	0px;
+}
+	/*Powermenu*/
+#custom-powermenu {
+	font-weight:				bold;
+	padding-left:				0px;
+	padding-right:				20px;
+	background-color:			#1A1C20;
+	color:					#FD3EFC;
+	margin-top:					10px;
+	margin-bottom:				10px;
+	margin-right:				10px;
+	border-top:					2px solid #D91B4F;
+	border-bottom:				2px solid #D91B4F;
+	border-right:				2px solid #D91B4F;
+	border-top-left-radius:		0px;
+	border-bottom-left-radius:	0px;
+	border-bottom-right-radius:	30px;
+	border-top-right-radius:	0px;
+}
+tooltip {
+	border-radius:				0px;
+	border:						2px solid #D91B4F;
+}
+tooltip label {
+	font-size:					10px;
+	color:						#C089A3;
+}
