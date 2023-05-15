@@ -17,4 +17,11 @@ image_size=30
 orientaton=vertical
 halign=fill
 content_halign=fill
+layer=overlay
+key_down=Shift_L-J
+key_up=Shift_L-K
+key_left=Shift_L-H
+key_right=Shift_L-L
+key_forward=Shift_L-N
+key_backward=Shift_L-B
 
