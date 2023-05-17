@@ -1,8 +1,5 @@
 width=900
 height=500
-location=1
-xoffset=-80
-yoffset=30
 prompt=...
 allow_images=true
 allow_markup=true
