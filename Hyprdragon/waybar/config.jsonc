@@ -131,7 +131,7 @@
         "format-plugged": "<span font='12' foreground='#d91b4f' rise='-2000'></span> {capacity}%",
         "format-alt": "{icon} {time}",
         // "format-good": "", // An empty format will hide the module
-        "format-full": "<span font='12' foreground='#d91b4f' rise='-2000'></span> {capacity}%",
+        "format-full": "<span font='12' foreground='#d91b4f' rise='-2000'> </span> {capacity}%",
         "format-icons": [
             "<span font='14' foreground='#d91b4f' rise='-2000'>  </span>",
             "<span font='14' foreground='#d91b4f' rise='-2000'>  </span>",
